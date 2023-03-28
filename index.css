@@ -1,13 +1,89 @@
+*{
+  background-color: rgb(61, 94, 82);
+}
+
 #main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 2rem;
 }
 
-#github-container {
+h2 {
+  text-align: center;
+}
+
+#github-form {
+  margin: 1rem 0;
+}
+
+#search {
+  background-color: blanchedalmond;
+}
+
+button {
+  background-color: aqua;
+}
+
+button:hover {
+  background-color: red;
+}
+#user-list {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
-ul {
+#user-list li {
   list-style: none;
+  margin: 1rem;
+  text-align: center;
+}
+
+#user-list img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+#user-list h4 {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+#user-list button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+#user-list button:hover {
+  background-color: #ff4d00;
+}
+
+#repos-list {
+  margin: 2rem 0 0 0;
+  padding: 0;
+}
+
+#repos-list li {
+  list-style: none;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+#repos-list a {
+  color: #000000f5;
+  text-decoration: none;
+}
+
+#repos-list a:hover {
+  text-decoration: underline;
 }
